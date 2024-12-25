@@ -2,91 +2,59 @@
   type: map
   contents:
     - name: Full Name
-      value: Albert Einstein
+      value: Tianyi Zhang
     - name: Date of Birth
-      value: 14th March 1879
+      value: 27th December 2004
     - name: Languages
-      value: English, German
+      value: English, Chinese
 
 - title: Education
   type: time_table
   contents:
-    - title: PhD
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1905
+    - title: Bachelor (Now)
+      institution: Southern University of Science and Technology, Shenzhen, China
+      year: 2026(Expected)
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Federal teaching diploma
-      institution: Eidgenössische Technische Hochschule, Zurich, Switzerland
-      year: 1900
+        - Physics.
+    - title: High School
+      institution: Attached High School of Sichuan University, Chengdu, China
+      year: 2022
       description:
-        - Description 1.
-        - Description 2.
-
+        - Major in Science.
 - title: Experience
   type: time_table
   contents:
-    - title: Professor of Theoretical Physics
-      institution: Institute for Advanced Study, Princeton University
-      year: 1933 - 1955
+    - title: Undergraduate Researcher
+      institution: Southern University of Science and Technology
+      year: 2022-2025
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Visiting Professor
-      institution: California Institute of Technology, Pasadena, California, US
-      year: 1933
-      description:
-        - Description 1.
-        - Description 2.
-
-    - title: Director
-      institution: Kaiser Wilhelm Institute for Physics, Berlin, Germany.
-      year: 1917-1933
-
-    - title: Professor of Theoretical Physics
-      institution: Karl-Ferdinand University, Prague, Czechoslovakia
-      year: 1911 - 1917
-      description:
-
-    - title: Associate Professor of Theoretical Physics
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1909 - 1911
-
-- title: Open Source Projects
+        - Learning skills about high pressure synthesis and experiments.
+        - Responsible for a project about modifying phase transition pressure point of Cerium by dopping.
+        
+- title: Projects
   type: time_table
   contents:
-    - title: <a href="https://github.com/alshedivat/al-folio">al-folio</a>
-      year: 2015-now
-      description: A beautiful, simple, clean, and responsive Jekyll theme for academics.
-
+    - title: Dopping Research on Cerium to Modify Its Phase Transition Point
+      year: 2023-now
+      description: ...
 - title: Honors and Awards
   type: time_table
   contents:
-    - year: 1921
+    - year:2022
       items:
-        - Nobel Prize in Physics
-        - Matteucci Medal
-    - year: 2029
+        - First Class Entrance Scholarship of SUSTech
+    -year:2024
       items:
-        - Max Planck Medal
-
+        - Second Prize of Chinese University Student Mathematical Modeling Competition
+    
 - title: Academic Interests
   type: nested_list
   contents:
-    - title: Topic 1.
+    - title: Astronomy.
       items:
         - Description 1.
         - Description 2.
-    - title: Topic 2.
+    - title: Condensed Matter Physics.
       items:
         - Description 1.
         - Description 2.
@@ -94,4 +62,4 @@
 - title: Other Interests
   type: list
   contents:
-    - <u>Hobbies:</u> Hobby 1, Hobby 2, etc.
+    - <u>Hobbies:</u> Piano, Programming, Games, Traveling, etc.
