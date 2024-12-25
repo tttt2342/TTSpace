@@ -7,7 +7,7 @@ subtitle: <a href='https://sustech.edu.cn'>SUSTech</a>. Shenzhen. 12210511@mail.
 profile:
   align: right
   image: Prof_pic.jpeg
-  image_circular: false # crops the image to make it circular
+  image_circular: ture # crops the image to make it circular
   more_info: >
     <p>No.1088 College St.</p>
     <p>Shenzhen, Guangdong</p>
