@@ -1,1 +1,1 @@
-User-agent: * Disallow: Sitemap: https://tttt2342.github.io/TTSpace//sitemap.xml
+User-agent: * Disallow: Sitemap: https://zhangty.com/sitemap.xml
