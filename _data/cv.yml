@@ -15,18 +15,12 @@
       institution: Southern University of Science and Technology, Shenzhen, China
       year: 2026
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
+        - Major in PHYSICS
     - title: High School
       institution: Attached High School of Sichuan University, Chengdu, China
       year: 2022
       description:
-        - Description 1.
-        - Description 2.
+        - Study in science.
 
 - title: Experience
   type: time_table
@@ -35,12 +29,8 @@
       institution: Southern University of Science and Technology
       year: 2023-2025
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
+        - Learn skills about high pressure synthesis and experiments.
+        - Proceed a project on modifying phase transition point of Cerium.
     
 - title: Open Source Projects
   type: time_table
@@ -52,13 +42,12 @@
 - title: Honors and Awards
   type: time_table
   contents:
-    - year: 1921
+    - year: 2024
       items:
-        - Nobel Prize in Physics
-        - Matteucci Medal
-    - year: 2029
+        - Second Prize in CUMCM(China University Mathematic Competition of Modeling)
+    - year: 2022
       items:
-        - Max Planck Medal
+        - First Class Undergraduate Entrance Scolarship at SUSTech
 
 - title: Academic Interests
   type: nested_list
