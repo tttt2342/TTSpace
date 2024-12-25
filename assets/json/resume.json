@@ -73,7 +73,14 @@
       "summary": "The first class scholarship among new undergraduate students. ¥30,000"
     }
   ],
-  
+  "certificates": [
+    {
+      "name": "Certificate",
+      "date": "2021-11-07",
+      "issuer": "Company",
+      "url": "https://certificate.com"
+    }
+  ],
   "publications": [
     {
       "name": "Zur Elektrody/namik bewegter Körper",
@@ -145,7 +152,12 @@
       ]
     }
   ],
-  
+  "references": [
+    {
+      "name": "Jane Doe",
+      "reference": "Reference…"
+    }
+  ],
   "projects": [
     {
       "name": "Quantum Computing",
