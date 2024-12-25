@@ -22,15 +22,15 @@
       }
     ]
   },
-  "work": [
+  "Experience": [
     {
-      "name": "Institute for Advanced Study, Princeton University",
-      "position": "Professor of Theoretical Physics",
+      "name": "Research Group about High Pressure and High Temparature, SUSTech",
+      "position": "Undergraduate Researcher",
       "url": "https://example.com",
-      "startDate": "1933-01-01",
-      "endDate": "1955-01-01",
+      "startDate": "2023-04-01",
+      "endDate": "Present",
       "summary": "Teaching at Palmer Physical Laboratory (now 302 Frist Campus Center). While not a professor at Princeton, I associated with the physics professors and continued to give lectures on campus.",
-      "highlights": ["Relativity"]
+      "highlights": ["High Pressure"]
     }
   ],
   "volunteer": [
@@ -61,56 +61,19 @@
   "awards": [
     {
       "title": "Second Prize of China University Mathematical Competition in Modeling",
-      "date": "2024-10-1",
+      "date": "2024-10-01",
       "awarder": "Guangdong",
       "url": "https://www.mcm.edu.cn",
       "summary": ""
     }
-  ],
-  "certificates": [
     {
-      "name": "Machine Learning",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-location-dot"
-    },
-    {
-      "name": "Quantum Computing",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-tag"
-    },
-    {
-      "name": "Quantum Information",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-envelope"
-    },
-    {
-      "name": "Quantum Cryptography",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-hashtag"
-    },
-    {
-      "name": "Quantum Communication",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-calendar"
-    },
-    {
-      "name": "Quantum Teleportation",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-clipboard-check"
+      "title": "First Class Entrance Scholarship",
+      "date": "2022-09-01",
+      "awarder": "Southern University of Science and Technology",
+      "summary": "The first class scholarship among new undergraduate students. ¥30,000"
     }
   ],
+  
   "publications": [
     {
       "name": "Zur Elektrody/namik bewegter Körper",
@@ -140,12 +103,23 @@
       "level": "Learner",
       "icon": "fa-solid fa-hashtag",
       "keywords": [
+        "High Pressure Technical",
+        "Analytical Mechanics",
+        "Statistical Mechanics",
         "Quantum Mechanics",
-        "Quantum Computing",
-        "Quantum Information",
-        "Quantum Cryptography",
-        "Quantum Communication",
-        "Quantum Teleportation"
+        "Electrodynamics",
+        "Solid Physics"
+      ]
+    }
+    {
+      "name": "Programming",
+      "level": "Excellent",
+      "icon": "fa-solid fa-hashtag",
+      "keywords": [
+        "Basic Python",
+        "Basic C++",
+        "Calculation on Mathematica and Matlab",
+        "Basic Java"
       ]
     }
   ],
@@ -166,27 +140,12 @@
       "name": "Physics",
       "icon": "fa-solid fa-tag",
       "keywords": [
-        "Quantum Mechanics",
-        "Quantum Computing",
-        "Quantum Information",
-        "Quantum Cryptography",
-        "Quantum Communication",
-        "Quantum Teleportation"
+        "Astrophysics",
+        "Condensed Matter Physics"
       ]
     }
   ],
-  "references": [
-    {
-      "name": "Professor John Doe",
-      "icon": "fa-solid fa-laptop",
-      "reference": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum, diam quis convallis euismod, arcu mi ullamcorper lorem, a vestibulum nunc magna at sem. Sed in risus ac felis varius blandit. D"
-    },
-    {
-      "name": "Professor John Doe",
-      "icon": "fa-solid fa-thumbtack",
-      "reference": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum, diam quis convallis euismod, arcu mi ullamcorper lorem, a vestibulum nunc magna at sem. Sed in risus ac felis varius blandit. D"
-    }
-  ],
+  
   "projects": [
     {
       "name": "Quantum Computing",
