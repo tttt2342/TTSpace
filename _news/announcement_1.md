@@ -1,8 +1,7 @@
 ---
 layout: post
-date: 2015-10-22 15:59:00-0400
+date: 2024-12-25 12:10:00-0400
 inline: true
 related_posts: false
 ---
-
-A simple inline announcement.
+Physics Experiments Course presentation has been succesfully completed. There is no experiment course anymore!
