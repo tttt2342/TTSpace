@@ -399,9 +399,9 @@ ninja.data = [{
     },{id: "news-physics-experiments-course-presentation-has-been-succesfully-completed-there-is-no-experiment-course-anymore",
           title: 'Physics Experiments Course presentation has been succesfully completed. There is no experiment course...',
           description: "",
-          section: "News",},{id: "projects-project-1",
-          title: 'project 1',
-          description: "with background image",
+          section: "News",},{id: "projects-modifying-phase-transition-point-of-cerium-by-dopping",
+          title: 'Modifying Phase Transition Point of Cerium by Dopping',
+          description: "Research on Cerium HPHT dopping",
           section: "Projects",handler: () => {
               window.location.href = "/projects/1_project/";
             },},{id: "projects-project-2",
