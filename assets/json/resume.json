@@ -6,10 +6,10 @@
     "email": "12210511@mail.sustech.du.cn",
     "phone": "(86)18108139279",
     "url": "https://zhangty.com",
-    "summary": "A German-born theoretical physicist, widely ranked among the greatest and most influential scientists of all time",
+    "summary": "A China-born student majoring in physics. Passionate in learning new knowledge and understanding the world.",
     "location": {
       "address": "1088 College St",
-      "postalCode": "CA 94115",
+      "postalCode": "518055",
       "city": "Shenzhen",
       "countryCode": "China",
       "region": "Guangdong"
@@ -47,24 +47,24 @@
   ],
   "education": [
     {
-      "institution": "University of Zurich, Zurich, Switzerland",
-      "location": "Zurich, Switzerland",
-      "url": "https://www.uzh.ch/",
-      "area": "Software Development",
-      "studyType": "PhD",
-      "startDate": "1905-01-01",
-      "endDate": "1905-01-01",
+      "institution": "Southern University of Science and Technology, Shenzhen, China",
+      "location": "Guangdong, China",
+      "url": "https://www.sustech.edu.cn",
+      "area": "Physics",
+      "studyType": "Bachelor",
+      "startDate": "2022-8-15",
+      "endDate": "2026-6-10",
       "score": "10",
       "courses": ["Theory of Relativity"]
     }
   ],
   "awards": [
     {
-      "title": "Nobel Prize in Physics",
-      "date": "1921-11-01",
-      "awarder": "Royal Swedish Academy of Sciences",
-      "url": "https://www.nobelprize.org/prizes/physics/1921/einstein/biographical/",
-      "summary": "The Nobel Prizes are five separate prizes that, according to Alfred Nobel's will of 1895, are awarded to 'those who, during the preceding year, have conferred the greatest benefit to humankind.'"
+      "title": "Second Prize of China University Mathematical Competition in Modeling",
+      "date": "2024-10-1",
+      "awarder": "Guangdong",
+      "url": "https://www.mcm.edu.cn",
+      "summary": ""
     }
   ],
   "certificates": [
@@ -137,7 +137,7 @@
   "skills": [
     {
       "name": "Physics",
-      "level": "Master",
+      "level": "Learner",
       "icon": "fa-solid fa-hashtag",
       "keywords": [
         "Quantum Mechanics",
