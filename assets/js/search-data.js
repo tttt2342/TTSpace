@@ -44,7 +44,18 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/people/";
           },
-        },{id: "post-quantum-ensembles",
+        },{id: "post-firmi-and-bose-statistics",
+      
+        title: "Firmi and Bose Statistics",
+      
+      description: "Statistical Mechanics Notes",
+      section: "Posts",
+      handler: () => {
+        
+          window.location.href = "/blog/2024/fermibosestatistics/";
+        
+      },
+    },{id: "post-quantum-ensembles",
       
         title: "Quantum Ensembles",
       
