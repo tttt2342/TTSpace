@@ -60,8 +60,27 @@ From the Schrodinger equation that is followed by $$|\psi_i(t)>$$, we can derive
 \begin{equation}
 [\hat H, \hat\rho]=0
 \end{equation}
-This illustrates that $$\hat\rho$$ and $$\hatH$$ are commutated, thus statistical calculator is a motion integral.
+This illustrates that $$\hat\rho$$ and $$\hat H$$ are commutated, thus statistical calculator is a motion integral.
 
 ### Quantum Ensemble Theory
 #### Microcanonical Ensemble
+**Definition:** An isolated system without energy and particle exchange with external environment. As there is no system does not exchange energy completely, we define such systems as those with little energy change from $$E$$ to $$E+\Delta E$$.
+We have two basic assumption in statistical physics:
+  1. The system can be located on every microstate in the energy shell.
+  2. Those probabilities on each states are equal.
+On those assumption we can write the matrix elements of $$\hat\rho$$ (Density matrix):
+\begin{equation}
+\rho_{nm} = P_n \delta_{nm}
+\end{equation}
+$$P_n$$ is the probability that eigen vector $$|\Phi_n>$$ appears. As probabilities are equal, we have
+\begin{equation}
+P_n= {
+\left\{
+\begin{array}{**rcl**}
+  \frac{1}{\Omega(E)} &\\
 
+  0 &
+\end{array}
+\right.
+}
+\end{equation}
