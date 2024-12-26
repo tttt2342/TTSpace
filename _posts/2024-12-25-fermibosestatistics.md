@@ -45,7 +45,7 @@ P=m\int d^3 p v_x^2 f(\vec p)
 \end{equation}
 Using $$f(\vec p) = h^{-3} n_p$$, and $$v_x^2=\frac{1}{3} {\vec v}^2$$, we can obtain
 \begin{equation}
-\frac{P}{k_B T}=\frac{1}{\lambda^3}\frac{8}{3\root{\pi}}\int_{0}^{\inf} \frac{x^4}{z^{-1}e^{x^2} -\zeta}
+\frac{P}{k_B T}=\frac{1}{\lambda^3}\frac{8}{3\sqrt{\pi}}\int_{0}^{\inf} \frac{x^4}{z^{-1}e^{x^2} -\zeta}
 \end{equation}
 where $$z = e^\alpha = e^{\beta \mu}$$ is called the **fugacity**.We can get the relation:
 \begin{equation}
