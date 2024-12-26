@@ -67,7 +67,7 @@ We have two basic assumption in statistical physics:
   1. The system can be located on every microstate in the energy shell.
   2. Those probabilities on each states are equal.
 
-#### Statistical Calculator of Microcanonical Ensemble
+##### Statistical Calculator of Microcanonical Ensemble
 On those assumption we can write the matrix elements of $$\hat\rho$$ (Density matrix):
 \begin{equation}
 \rho_{nm} = P_n \delta_{nm}
@@ -76,8 +76,26 @@ $$P_n$$ is the probability that eigen vector $$|\Phi_n\rangle$$ appears. As prob
 \begin{equation}
 P_n=
 \begin{cases}
-  \frac{1}{\Omega(E)},& E<E_n<E+\Delta E \\
+  \frac{1}{\Omega (E)},& E<E_n<E+\Delta E \\
   0,& \text{otherwise}
 \end{cases}
 \end{equation}
-$$E_n$$ is the eigen energy of system.
+$$E_n$$ is the eigen energy of system.\\
+So the statistical calculator is
+\begin{equation}
+\label{sc-of-mce}
+\hat\rho = \sum_{n} |\Phi_n\rangle P_n\langle\Phi_n | = \frac{1}{\Omega (E)}
+\end{equation}
+And its trace
+\begin{equation}
+tr\hat\rho = \sum_{n\prime} \sum_{n} \langle\Phi_{n'}|\Phi_n\rangle P_n\langle\Phi_n | \Phi_{n'}\rangle = \sum_{n'} \frac{1}{\Omega (E)}=1
+\end{equation}
+With statistical calculator, the average of any physical quantity can be calculated by $$\langle \hat A \rangle = tr(\hat\rho \hat A)$$. Now what we need to do is defining the entropy that equal to the classical value. So we define following entropy calculator:
+\begin{equation}
+\hat S = -k_B \ln \hat\rho
+\end{equation}
+The average value of it is
+\begin{equation}
+S=\langle \hat S\rangle = -k_B \sum_{n}\frac{1}{\Omega (E)} \ln \frac{1}{\Omega (E)} = k_B\ln \Omega (E)
+\end{equation}
+which is completely the same with the classical formula.
