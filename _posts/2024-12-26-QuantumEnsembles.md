@@ -24,4 +24,11 @@ The statistical calculator has following properties:
 \begin{equation}
 tr\hat\rho = \sum_{n}\rho_{nn} = \sum_{n}<\phi_n|\hat\rho|\phi_n>=\sum_{i}<\psi_i|\sum_{n}|\phi_n><\phi_n|\psi_i>P_i=\sum_{i}P_i=1
 \end{equation}
-3. 
+2. The trace of the square of $\hat\rho$:
+
+$$
+tr\hat\rho^2<1, for mixed ensembles
+tr\hat\rho^2=1, for pure ensembles
+$$
+
+3. The statistical calculator is Hermitian calculator, thus its eigen value must be real.
