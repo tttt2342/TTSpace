@@ -7,7 +7,7 @@ tags: StatisticalMechanics
 related_posts: false
 ---
 
-#### Statistical Calculator
+### Statistical Calculator
 Definition of statistical calculator $$\rho$$:
 
 \begin{equation}
@@ -34,7 +34,7 @@ tr\hat\rho = \sum_{n}\rho_{nn} = \sum_{n}\langle\phi_n|\hat\rho|\phi_n\rangle=\s
 
 3. The statistical calculator is Hermitian calculator, thus its eigen value must be real.
 
-#### Liouville's Theorem
+### Liouville's Theorem
 In classical statistical mechanics, we have Liouville's theorm, which claims that a conserved mechanics system with $$N$$ particles in $$\Gamma$$ space, its state density $$D(p,q,t)$$ is conserved while moving. The math expression of this theorem is
 \begin{equation}
 \label{LT}
@@ -59,15 +59,16 @@ From the Schrodinger equation that is followed by $$|\psi_i(t)>$$, we can derive
 \end{equation}
 This illustrates that $$\hat\rho$$ and $$\hat H$$ are commutated, thus statistical calculator is a motion integral.
 
-### Quantum Ensemble Theory
+## Quantum Ensemble Theory
 
-#### Microcanonical Ensemble
+### Microcanonical Ensemble
 **Definition:** An isolated system without energy and particle exchange with external environment. As there is no system does not exchange energy completely, we define such systems as those with little energy change from $$E$$ to $$E+\Delta E$$.
 
 We have two basic assumption in statistical physics:
   1. The system can be located on every microstate in the energy shell.
   2. Those probabilities on each states are equal.
 
+#### Statistical Calculator of Microcanonical Ensemble
 On those assumption we can write the matrix elements of $$\hat\rho$$ (Density matrix):
 \begin{equation}
 \rho_{nm} = P_n \delta_{nm}
