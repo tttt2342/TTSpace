@@ -27,10 +27,10 @@ tr\hat\rho = \sum_{n}\rho_{nn} = \sum_{n}\langle\phi_n|\hat\rho|\phi_n\rangle=\s
 2. The trace of the square of $$\hat\rho$$:
 
 \begin{equation}
-\begin{cases}
-  tr\hat\rho^2<1 \text{, for mixed ensembles} \\
-  tr\hat\rho^2=1 \text{, for pure ensembles} 
-\end{cases}
+\begin{aligned}
+  tr\hat\rho^2<1&, \text{ for mixed ensembles} \\
+  tr\hat\rho^2=1&, \text{ for pure ensembles} 
+\end{aligned}
 \end{equation}
 
 3. The statistical calculator is Hermitian calculator, thus its eigen value must be real.
