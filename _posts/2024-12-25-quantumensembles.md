@@ -70,6 +70,10 @@ On those assumption we can write the matrix elements of $$\hat\rho$$ (Density ma
 \end{equation}
 $$P_n$$ is the probability that eigen vector $$|\Phi_n>$$ appears. As probabilities are equal, we have
 \begin{equation}
-P_n= \frac{1}{\Omega(E)}
+P_n=
+\begin{cases}
+  \frac{1}{\Omega(E)}, E<E_n<E+\Delta E \\
+  0, \text{otherwise}
+\end{cases}
 \end{equation}
 $$E_n$$ is the eigen energy of system.
