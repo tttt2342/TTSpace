@@ -4,7 +4,6 @@ title: Quantum Ensembles
 date: 2024-12-26 11:12:00-0400
 description: Statistical Mechanics Notes 
 tags: StatisticalMechanics
-categories: notes
 related_posts: false
 ---
 
