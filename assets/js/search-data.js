@@ -44,9 +44,9 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/people/";
           },
-        },{id: "post-firmi-and-bose-statistics",
+        },{id: "post-fermi-and-bose-statistics",
       
-        title: "Firmi and Bose Statistics",
+        title: "Fermi and Bose Statistics",
       
       description: "Statistical Mechanics Notes",
       section: "Posts",
