@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Quantum Ensembles
-date: 2024-12-25 11:12:00-0400
+date: 2024-12-25 11:12:00+0800
 description: Statistical Mechanics Notes 
 tags: StatisticalMechanics
 related_posts: false
