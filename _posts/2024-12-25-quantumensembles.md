@@ -27,7 +27,7 @@ tr\hat\rho = \sum_{n}\rho_{nn} = \sum_{n}<\phi_n|\hat\rho|\phi_n>=\sum_{i}<\psi_
 2. The trace of the square of $$\hat\rho$$:
 
 \begin{equation}
-  tr\hat\rho^2<1 \text{, for mixed ensembles} \
+  tr\hat\rho^2<1 \text{, for mixed ensembles} \\
   tr\hat\rho^2=1 \text{, for pure ensembles} 
 \end{equation}
 
@@ -45,7 +45,7 @@ And the poisson bracket is
 \end{equation}
 When the system is under statistical equilibrium, the state density would be independent of time. Thus from \eqref{LT} we have 
 \begin{equation}
-\{D,H\} = 0
+\lbraceD,H\rbrace = 0
 \end{equation}
 
 If we want to find out the quantum version Liouville's Theorem, we can write statistical calculator under Schrodinger frame
@@ -71,7 +71,7 @@ On those assumption we can write the matrix elements of $$\hat\rho$$ (Density ma
 \begin{equation}
 \rho_{nm} = P_n \delta_{nm}
 \end{equation}
-$$P_n$$ is the probability that eigen vector $$|\Phi_n>$$ appears. As probabilities are equal, we have
+$$P_n$$ is the probability that eigen vector $$|\Phi_n\rangle$$ appears. As probabilities are equal, we have
 \begin{equation}
 P_n=
 \begin{cases}
