@@ -56,9 +56,9 @@ This holds for the ideal Fermi and Bose gas, as well as the classical ideal gas.
 ##### Entropy
 From the definition of entropy we can obtain
 \begin{equation}
-\frac{S}{k_B} = \sum_{k} [\frac{1}{\ksi \pm 1} \ln (\ksi \pm 1) \pm \frac{\ksi}{\ksi\pm 1}\ln\frac{\ksi \pm 1}{\ksi}]
+\frac{S}{k_B} = \sum_{k} [\frac{1}{\xi \pm 1} \ln (\xi \pm 1) \pm \frac{\xi}{\xi\pm 1}\ln\frac{\xi \pm 1}{\xi}]
 \end{equation}
-where $$\ksi = z^{-1} e^{-\beta\epsilon}$$. Using the definition of $$U$$ and $$N$$, we have
+where $$\xi = z^{-1} e^{-\beta\epsilon}$$. Using the definition of $$U$$ and $$N$$, we have
 \begin{equation}
 \frac{S}{k_B}=-N\ln z + \frac{U}{k_B T} \pm \sum_{k}\ln (1\pm z e^{-\beta \epsilon})
 \end{equation}
