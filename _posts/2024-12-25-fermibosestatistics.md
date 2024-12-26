@@ -18,7 +18,7 @@ Therefore, under a certain seqence of occupation numbers$$\lbrace n_i\rbrace$$, 
 \end{equation}
 Using Lagrage multipliers, we can obtain
 \begin{equation}
-\bar n_j = \frac{g_j}{\e^{-\alpha+\beta\epsilon_j}+1}
+\bar n_j = \frac{g_j}{e^{-\alpha+\beta\epsilon_j}+1}
 \end{equation}
 This is the Fermi distribution.
 
@@ -33,7 +33,7 @@ Therefore, the number of microstates:
 \end{equation}
 Using Lagrage multipliers, we can obtain
 \begin{equation}
-\bar n_j = \frac{g_j}{\e^{-\alpha+\beta\epsilon_j}-1}
+\bar n_j = \frac{g_j}{e^{-\alpha+\beta\epsilon_j}-1}
 \end{equation}
 This is the Bose distribution.
 
