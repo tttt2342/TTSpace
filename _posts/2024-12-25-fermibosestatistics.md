@@ -43,4 +43,12 @@ The pressure of the quantum ideal gas can be calculated using the particle flux 
 \begin{equation}
 P=m\int d^3 p v_x^2 f(\vec p)
 \end{equation}
-Using $$f(\vec p) = h^{-3} n_p$$
+Using $$f(\vec p) = h^{-3} n_p$$, and $$v_x^2=\frac{1}{3} {\vec v}^2$$, we can obtain
+\begin{equation}
+\frac{P}{k_B T}=\frac{1}{\lambda^3}\frac{8}{3\root{\pi}}\int_{0}^{\inf} \frac{x^4}{z^{-1}e^{x^2} -\zeta}
+\end{equation}
+We can get the relation:
+\begin{equation}
+PV=\frac{2}{3}U
+\end{equation}
+This holds for the ideal Fermi and Bose gas, as well as the classical ideal gas.
