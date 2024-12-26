@@ -8,7 +8,7 @@ related_posts: false
 ---
 
 #### Statistical Calculator
-Definition of statistical calculator $\rho$:
+Definition of statistical calculator $$\rho$$:
 
 \begin{equation}
 \hat\rho = \sum_{i} |\psi_i> P_i <\psi_i| , (\sum_{i} P_i = 1)
@@ -47,3 +47,17 @@ When the system is under statistical equilibrium, the state density would be ind
 \begin{equation}
 {D,H} = 0
 \end{equation}
+
+If we want to find out the quantum version Liouville's Theorem, we can write statistical calculator under Schrodinger frame
+\begin{equation}
+\hat\rho(t) = \sum_{i} |\psi_i(t)>P_i<\psi_i(t)|
+\end{equation}
+From the Schrodinger equation that is followed by $$|\psi_i(t)>$$, we can derive the quantum Liouville's theorem with similiar method:
+\begin{equation}
+[\hat H, \hat\rho]=0
+\end{equation}
+This illustrates that $$\hat\rho$$ and $$\hatH$$ are commutated, thus statistical calculator is a motion integral.
+
+### Quantum Ensemble Theory
+#### Microcanonical Ensemble
+
