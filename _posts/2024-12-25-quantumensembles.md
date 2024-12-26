@@ -7,7 +7,7 @@ tags: StatisticalMechanics
 related_posts: false
 ---
 
-\usepackage{amsmath}
+
 ### Statistical Calculator
 Definition of statistical calculator $$\rho$$:
 
