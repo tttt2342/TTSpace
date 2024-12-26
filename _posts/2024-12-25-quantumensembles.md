@@ -11,23 +11,24 @@ related_posts: false
 Definition of statistical calculator $$\rho$$:
 
 \begin{equation}
-\hat\rho = \sum_{i} |\psi_i> P_i <\psi_i| , (\sum_{i} P_i = 1)
+\hat\rho = \sum_{i} |\psi_i\rangle P_i \langle \psi_i| , (\sum_{i} P_i = 1)
 \end{equation}
 
 Especially, for pure states:
 \begin{equation}
-\hat\rho = |\psi_i><\psi_i|
+\hat\rho = |\psi_i\rangle\langle\psi_i|
 \end{equation}
 
 The statistical calculator has following properties:
 1. The trace of statistical calculator $$\hat\rho$$ equals to 1. i.e.
 \begin{equation}
-tr\hat\rho = \sum_{n}\rho_{nn} = \sum_{n}<\phi_n|\hat\rho|\phi_n>=\sum_{i}<\psi_i|\sum_{n}|\phi_n><\phi_n|\psi_i>P_i=\sum_{i}P_i=1
+tr\hat\rho = \sum_{n}\rho_{nn} = \sum_{n}\langle\phi_n|\hat\rho|\phi_n\rangle=\sum_{i}\langle\psi_i|\sum_{n}|\phi_n\rangle\langle\phi_n|\psi_i\rangleP_i=\sum_{i}P_i=1
 \end{equation}
 2. The trace of the square of $$\hat\rho$$:
 
 \begin{equation}
-  tr\hat\rho^2<1 \text{, for mixed ensembles} \\
+  tr\hat\rho^2<1 \text{, for mixed ensembles} 
+  
   tr\hat\rho^2=1 \text{, for pure ensembles} 
 \end{equation}
 
@@ -37,20 +38,20 @@ tr\hat\rho = \sum_{n}\rho_{nn} = \sum_{n}<\phi_n|\hat\rho|\phi_n>=\sum_{i}<\psi_
 In classical statistical mechanics, we have Liouville's theorm, which claims that a conserved mechanics system with $$N$$ particles in $$\Gamma$$ space, its state density $$D(p,q,t)$$ is conserved while moving. The math expression of this theorem is
 \begin{equation}
 \label{LT}
-\frac{dD(p,q,t)}{dt}=\frac{\partial D(p,q,t)}{\partial t}+\{D,H\}=0
+\frac{dD(p,q,t)}{dt}=\frac{\partial D(p,q,t)}{\partial t}+\lbrace D,H\rbrace=0
 \end{equation}
 And the poisson bracket is
 \begin{equation}
-\{D,H\} = \sum_{i=1}^s (\frac{\partial D}{\partial q_i}\frac{\partial H}{\partial p_i}-\frac{\partial D}{\partial p_i}\frac{\partial H}{\partial q_i})
+\lbrace D,H\rbrace = \sum_{i=1}^s (\frac{\partial D}{\partial q_i}\frac{\partial H}{\partial p_i}-\frac{\partial D}{\partial p_i}\frac{\partial H}{\partial q_i})
 \end{equation}
 When the system is under statistical equilibrium, the state density would be independent of time. Thus from \eqref{LT} we have 
 \begin{equation}
-\lbraceD,H\rbrace = 0
+\lbrace D,H\rbrace = 0
 \end{equation}
 
 If we want to find out the quantum version Liouville's Theorem, we can write statistical calculator under Schrodinger frame
 \begin{equation}
-\hat\rho(t) = \sum_{i} |\psi_i(t)>P_i<\psi_i(t)|
+\hat\rho(t) = \sum_{i} |\psi_i(t)\rangle P_i\langle\psi_i(t)|
 \end{equation}
 From the Schrodinger equation that is followed by $$|\psi_i(t)>$$, we can derive the quantum Liouville's theorem with similiar method:
 \begin{equation}
@@ -75,7 +76,8 @@ $$P_n$$ is the probability that eigen vector $$|\Phi_n\rangle$$ appears. As prob
 \begin{equation}
 P_n=
 \begin{cases}
-  \frac{1}{\Omega(E)}, E<E_n<E+\Delta E \\
+  \frac{1}{\Omega(E)}, E<E_n<E+\Delta E 
+  
   0, \text{otherwise}
 \end{cases}
 \end{equation}
