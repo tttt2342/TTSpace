@@ -45,7 +45,7 @@ P=m\int d^3 p v_x^2 f(\vec p)
 \end{equation}
 Using $$f(\vec p) = h^{-3} n_p$$, and $$v_x^2=\frac{1}{3} {\vec v}^2$$, we can obtain
 \begin{equation}
-\frac{P}{k_B T}=\frac{1}{\lambda^3}\frac{8}{3\sqrt{\pi}}\int_{0}^{\inf} \frac{x^4}{z^{-1}e^{x^2} -\zeta}
+\frac{P}{k_B T}=\frac{1}{\lambda^3}\frac{8}{3\sqrt{\pi}}\int_{0}^{\infty} \frac{x^4}{z^{-1}e^{x^2} -\zeta}
 \end{equation}
 where $$z = e^\alpha = e^{\beta \mu}$$ is called the **fugacity**.We can get the relation:
 \begin{equation}
@@ -66,7 +66,7 @@ with + for Fermi, and - for Bose.
 
 In the thermodynamic limit the last term becomes an integral, so we can calculate(for Fermi):
 \begin{equation}
-\frac{V}{2\pi^2}\int_0^{\inf}k^2 \ln (1 + z e^{-\beta\epsilon})=\frac{2}{3}\frac{U}{k_B T}=\frac{PV}{k_B T}
+\frac{V}{2\pi^2}\int_0^{\infty}k^2 \ln (1 + z e^{-\beta\epsilon})=\frac{2}{3}\frac{U}{k_B T}=\frac{PV}{k_B T}
 \end{equation}
 The same final result holds for the Bose case. Now we have the relation
 \begin{equation}
