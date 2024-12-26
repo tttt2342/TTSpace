@@ -22,7 +22,7 @@ Especially, for pure states:
 The statistical calculator has following properties:
 1. The trace of statistical calculator $$\hat\rho$$ equals to 1. i.e.
 \begin{equation}
-tr\hat\rho = \sum_{n}\rho_{nn} = \sum_{n}\langle\phi_n|\hat\rho|\phi_n\rangle=\sum_{i}\langle\psi_i|\sum_{n}|\phi_n\rangle\langle\phi_n|\psi_i\rangleP_i=\sum_{i}P_i=1
+tr\hat\rho = \sum_{n}\rho_{nn} = \sum_{n}\langle\phi_n|\hat\rho|\phi_n\rangle=\sum_{i}\langle\psi_i|\sum_{n}|\phi_n\rangle\langle\phi_n|\psi_i\rangle P_i=\sum_{i}P_i=1
 \end{equation}
 2. The trace of the square of $$\hat\rho$$:
 
@@ -77,8 +77,7 @@ $$P_n$$ is the probability that eigen vector $$|\Phi_n\rangle$$ appears. As prob
 \begin{equation}
 P_n=
 \begin{cases}
-  \frac{1}{\Omega(E)}, E<E_n<E+\Delta E 
-  
+  \frac{1}{\Omega(E)}, E<E_n<E+\Delta E &\\
   0, \text{otherwise}
 \end{cases}
 \end{equation}
