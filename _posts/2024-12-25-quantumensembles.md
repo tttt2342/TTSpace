@@ -27,8 +27,7 @@ tr\hat\rho = \sum_{n}\rho_{nn} = \sum_{n}\langle\phi_n|\hat\rho|\phi_n\rangle=\s
 2. The trace of the square of $$\hat\rho$$:
 
 \begin{equation}
-  tr\hat\rho^2<1 \text{, for mixed ensembles} 
-  
+  tr\hat\rho^2<1 \text{, for mixed ensembles} <br>
   tr\hat\rho^2=1 \text{, for pure ensembles} 
 \end{equation}
 
@@ -77,8 +76,8 @@ $$P_n$$ is the probability that eigen vector $$|\Phi_n\rangle$$ appears. As prob
 \begin{equation}
 P_n=
 \begin{cases}
-  \frac{1}{\Omega(E)}, E<E_n<E+\Delta E &\\
-  0, \text{otherwise}
+  \frac{1}{\Omega(E)},& E<E_n<E+\Delta E \\
+  0,& \text{otherwise}
 \end{cases}
 \end{equation}
 $$E_n$$ is the eigen energy of system.
