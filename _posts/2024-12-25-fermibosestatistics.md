@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Firmi and Bose Statistics
+title: Fermi and Bose Statistics
 date: 2024-12-25 15:12:00+0800
 description: Statistical Mechanics Notes 
 tags: StatisticalMechanics
@@ -37,4 +37,10 @@ Using Lagrage multipliers, we can obtain
 \end{equation}
 This is the Bose distribution.
 
-### Determining the Parameters
+### Physical Quantities under Quantum Statistics
+##### Pressure
+The pressure of the quantum ideal gas can be calculated using the particle flux impinging on a wall arising from a momentum distribution $$f(\vec p)$$:
+\begin{equation}
+P=m\int d^3 p v_x^2 f(\vec p)
+\end{equation}
+Using $$f(\vec p) = h^{-3} n_p$$
