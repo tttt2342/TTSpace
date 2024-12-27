@@ -44,7 +44,18 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/people/";
           },
-        },{id: "post-from-grand-canonical-ensemble-to-ideal-gas",
+        },{id: "post-bose-einstein-condensation",
+      
+        title: "Bose-Einstein Condensation",
+      
+      description: "Statistical Mechanics Notes",
+      section: "Posts",
+      handler: () => {
+        
+          window.location.href = "/blog/2024/becondensation/";
+        
+      },
+    },{id: "post-from-grand-canonical-ensemble-to-ideal-gas",
       
         title: "From Grand Canonical Ensemble to Ideal Gas",
       
