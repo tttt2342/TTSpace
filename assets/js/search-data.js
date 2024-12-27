@@ -44,7 +44,18 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/people/";
           },
-        },{id: "post-fermi-and-bose-statistics",
+        },{id: "post-from-grand-canonical-ensemble-to-ideal-gas",
+      
+        title: "From Grand Canonical Ensemble to Ideal Gas",
+      
+      description: "Statistical Mechanics Notes",
+      section: "Posts",
+      handler: () => {
+        
+          window.location.href = "/blog/2024/idealgas/";
+        
+      },
+    },{id: "post-fermi-and-bose-statistics",
       
         title: "Fermi and Bose Statistics",
       
