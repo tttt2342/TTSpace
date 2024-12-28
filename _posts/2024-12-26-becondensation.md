@@ -88,3 +88,35 @@ From equation \eqref{f5}, we can write the relation between $$\frac{\langle n_0 
 \frac{\langle n_0\rangle}{N} = 0\text{,    }(\frac{\lambda^3}{v}<g_{3/2}(1))
 \end{equation}
 The partition of particles with $$p=0$$ is showed in the figure.
+##### Equation of States
+In the condensed area, the EOS is
+\begin{equation}
+\frac{P}{k_B T} = \frac{1}{\lambda^3}g_{5/2}(1)\text{,    }(v<v_c)
+\end{equation}
+where $$g_{5/2}(1)=\zeta(5/2)=1.342\cdot\cdot\cdot$$.
+##### Curve of Phase Transition
+In $$P-v$$ diagram, the curve of phase transision is:
+\begin{equation}
+Pv^{5/3}=\frac{2\pi\hbar^2}{m}\frac{g_{5/2/}(1)}{[g_{3/2}(1)]^{5/3}}
+\end{equation}
+In $$P-T$$ diagram, the curve is:
+\begin{equation}
+P=(\frac{m}{2\pi\hbar^2}^{3/2}g_{5/2}(1)(k_B T)^{5/2})
+\end{equation}
+##### Thermodynamic Quantities in Condensed Area
+In the condensed area $$v<v_c(T<T_c)$$, we can calculate the thermodynamic quantities of the system.
+###### Internal Energy
+\begin{equation}
+\frac{U}{N} = \frac{3}{2} Pv=\frac{3}{2}\frac{k_B Tv}{\lambda^3}g_{5/2}(1)
+\end{equation}
+###### Entropy
+\begin{equation}
+\frac{S}{Nk_B} = \frac{5}{2}\frac{v}{\lambda^3}g_{5/2}(1)
+\end{equation}
+###### Specific Capacity
+\begin{equation}
+\frac{C_v}{Nk_B} = \frac{15}{4}\frac{v}{\lambda^3}g_{5/2}(1)
+\end{equation}
+<div class="col-sm mt-3 mt-md-0">
+    {% include figure.liquid loading="eager" path="assets/img/10.jpg" class="img-fluid rounded z-depth-1" zoomable=true %}
+</div>
