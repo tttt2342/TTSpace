@@ -73,7 +73,7 @@ g_{3/2}(z) = \frac{\lambda^3}{v} \text{,    }(\frac{\lambda^3}{v}<g_{3/2}(1))
 \end{equation}
 
 <div class="col-sm mt-3 mt-md-0">
-    {% include figure.liquid loading="eager" path="assets/img/8.jpg" class="img-fluid rounded z-depth-1" zoomable=true %}
+    {% include figure.liquid loading="eager" path="assets/img/Z-v.jpeg" class="img-fluid rounded z-depth-1" zoomable=true %}
 </div>
 
 
@@ -87,7 +87,7 @@ From equation \eqref{f5}, we can write the relation between $$\frac{\langle n_0 
 \end{equation}
 The partition of particles with $$p=0$$ is showed in the figure.
 <div class="col-sm mt-3 mt-md-0">
-    {% include figure.liquid loading="eager" path="assets/img/10.jpg" class="img-fluid rounded z-depth-1" zoomable=true %}
+    {% include figure.liquid loading="eager" path="assets/img/N0-v.jpeg" class="img-fluid rounded z-depth-1" zoomable=true %}
 </div>
 ##### Equation of States
 In the condensed area, the EOS is
@@ -118,6 +118,7 @@ In the condensed area $$v<v_c(T<T_c)$$, we can calculate the thermodynamic quant
 \begin{equation}
 \frac{C_v}{Nk_B} = \frac{15}{4}\frac{v}{\lambda^3}g_{5/2}(1)
 \end{equation}
+The figure of capacity is shown below.
 <div class="col-sm mt-3 mt-md-0">
-    {% include figure.liquid loading="eager" path="assets/img/10.jpg" class="img-fluid rounded z-depth-1" zoomable=true %}
+    {% include figure.liquid loading="eager" path="assets/img/Cv-v.jpeg" class="img-fluid rounded z-depth-1" zoomable=true %}
 </div>
