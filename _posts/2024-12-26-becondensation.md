@@ -22,15 +22,15 @@ g_{3/2}(z)=\sum_{l=1}^{\infty} \frac{z^l}{l^{3/2}}
 \end{equation}
 For small $$z$$ it can be written into:
 \begin{equation}
-g_{3/2}(z)=z+\frac{z^2}{2^{3/2} +\frac{z^3}{3^{3/2}}+\dot \dot \dot}
+g_{3/2}(z)=z+\frac{z^2}{2^{3/2} +\frac{z^3}{3^{3/2}}+\cdot \cdot \cdot}
 \end{equation}
 When $$z = 1$$, its differential is divergent, while itself convergent to
 \begin{equation}
-g_{3/2}(1)=\sum_{l=1}^{\infty} \frac{1}{l^{3/2}} = \zeta (3/2) = 2.612\dot \dot \dot
+g_{3/2}(1)=\sum_{l=1}^{\infty} \frac{1}{l^{3/2}} = \zeta (3/2) = 2.612\cdot \cdot \cdot
 \end{equation}
 Thus for all $$0 < z < 1$$, we have
 \begin{equation}
-g_{3/2}(z)<2.612\dot\dot\dot
+g_{3/2}(z)<2.612\cdot\cdot\cdot
 \end{equation}
 ##### Conditions of Bose-Einstein Condensation
 We can rewrite the formula \eqref{f3}:
