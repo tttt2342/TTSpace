@@ -61,5 +61,22 @@ If the temperature is fixed, we have the critical specific volume $$v_c$$:
 v_c=\frac{\lambda^3}{g_{3/2}(1)}
 \end{equation}
 BEC only happens in systems that have high density and low temperature.
-
-
+##### Fugacity
+From figure we can know that $$z=1$$ for all $$\frac{\lambda^3}{v}>g_{3/2}(1)$$.
+When $$V \to \infty$$, the fugacity meet:
+\begin{equation}
+z=1\text{,    }(\frac{\lambda^3}{v}>g_{3/2}(1))
+\end{equation}
+\begin{equation}
+\label{f5}
+g_{3/2}(z) = \frac{\lambda^3}{v} \text{,    }(\frac{\lambda^3}{v}<g_{3/2}(1))
+\end{equation}
+##### Occupation number
+From equation \eqref{f5}, we can write the relation between $$\frac{\langle n_0 \rangle}{N}$$ and Temperature or specific volume.
+\begin{equation}
+\frac{\langle n_0\rangle}{N} = 1-(\frac{T}{T_c})^{3/2} = 1-\frac{v}{v_c}\text{,    }(\frac{\lambda^3}{v}>g_{3/2}(1))
+\end{equation}
+\begin{equation}
+\frac{\langle n_0\rangle}{N} = 0\text{,    }(\frac{\lambda^3}{v}<g_{3/2}(1))
+\end{equation}
+The partition of particles with $$p=0$$ is showed in the figure.
