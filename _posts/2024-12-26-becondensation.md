@@ -71,6 +71,14 @@ z=1\text{,    }(\frac{\lambda^3}{v}>g_{3/2}(1))
 \label{f5}
 g_{3/2}(z) = \frac{\lambda^3}{v} \text{,    }(\frac{\lambda^3}{v}<g_{3/2}(1))
 \end{equation}
+
+<div class="col-sm mt-3 mt-md-0">
+    {% include figure.liquid loading="eager" path="assets/img/8.jpg" class="img-fluid rounded z-depth-1" zoomable=true %}
+</div>
+<div class="col-sm mt-3 mt-md-0">
+    {% include figure.liquid loading="eager" path="assets/img/10.jpg" class="img-fluid rounded z-depth-1" zoomable=true %}
+</div>
+
 ##### Occupation number
 From equation \eqref{f5}, we can write the relation between $$\frac{\langle n_0 \rangle}{N}$$ and Temperature or specific volume.
 \begin{equation}
