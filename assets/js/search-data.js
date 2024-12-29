@@ -74,6 +74,17 @@ ninja.data = [{
       section: "Posts",
       handler: () => {
         
+          window.location.href = "/blog/2024/fermigas/";
+        
+      },
+    },{id: "post-fermi-and-bose-statistics",
+      
+        title: "Fermi and Bose Statistics",
+      
+      description: "Statistical Mechanics Notes",
+      section: "Posts",
+      handler: () => {
+        
           window.location.href = "/blog/2024/fermibosestatistics/";
         
       },
