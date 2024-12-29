@@ -55,6 +55,17 @@ ninja.data = [{
           window.location.href = "/blog/2024/fermigas/";
         
       },
+    },{id: "post-black-body-radiation",
+      
+        title: "Black Body Radiation",
+      
+      description: "Statistical Mechanics Notes",
+      section: "Posts",
+      handler: () => {
+        
+          window.location.href = "/blog/2024/photon/";
+        
+      },
     },{id: "post-bose-einstein-condensation",
       
         title: "Bose-Einstein Condensation",
