@@ -57,7 +57,7 @@ ninja.data = [{
       },
     },{id: "post-black-body-radiation",
       
-        title: "Black Body Radiation",
+        title: "Black-Body Radiation",
       
       description: "Statistical Mechanics Notes",
       section: "Posts",
