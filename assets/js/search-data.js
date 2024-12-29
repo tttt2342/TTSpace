@@ -44,7 +44,18 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/people/";
           },
-        },{id: "post-bose-einstein-condensation",
+        },{id: "post-the-fermi-gas",
+      
+        title: "The Fermi Gas",
+      
+      description: "Statistical Mechanics Notes",
+      section: "Posts",
+      handler: () => {
+        
+          window.location.href = "/blog/2024/fermigas/";
+        
+      },
+    },{id: "post-bose-einstein-condensation",
       
         title: "Bose-Einstein Condensation",
       
@@ -64,17 +75,6 @@ ninja.data = [{
       handler: () => {
         
           window.location.href = "/blog/2024/idealgas/";
-        
-      },
-    },{id: "post-fermi-and-bose-statistics",
-      
-        title: "Fermi and Bose Statistics",
-      
-      description: "Statistical Mechanics Notes",
-      section: "Posts",
-      handler: () => {
-        
-          window.location.href = "/blog/2024/fermigas/";
         
       },
     },{id: "post-fermi-and-bose-statistics",
