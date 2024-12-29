@@ -3,7 +3,8 @@ layout: post
 title: Fermi and Bose Statistics
 date: 2024-12-25 15:12:00+0800
 description: Statistical Mechanics Notes 
-tags: StatisticalMechanics
+tags: physics fermion boson
+categories: StatisticalMechanics
 related_posts: false
 ---
 
