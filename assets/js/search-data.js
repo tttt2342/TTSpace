@@ -37,7 +37,18 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/cv/";
           },
-        },{id: "post-the-fermi-gas",
+        },{id: "post-important-formulas-for-statistical-mechanics",
+      
+        title: "Important Formulas for Statistical Mechanics",
+      
+      description: "Statistical Mechanics Notes",
+      section: "Posts",
+      handler: () => {
+        
+          window.location.href = "/blog/2024/formulas/";
+        
+      },
+    },{id: "post-the-fermi-gas",
       
         title: "The Fermi Gas",
       
