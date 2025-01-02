@@ -37,7 +37,18 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/cv/";
           },
-        },{id: "post-time-perturbation-theory",
+        },{id: "post-adiabatic-approximation",
+      
+        title: "Adiabatic Approximation",
+      
+      description: "Quantum Mechanics Notes",
+      section: "Posts",
+      handler: () => {
+        
+          window.location.href = "/blog/2025/adiabatic/";
+        
+      },
+    },{id: "post-time-perturbation-theory",
       
         title: "Time Perturbation Theory",
       
