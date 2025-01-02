@@ -37,7 +37,18 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/cv/";
           },
-        },{id: "post-important-formulas-for-statistical-mechanics",
+        },{id: "post-time-perturbation-theory",
+      
+        title: "Time Perturbation Theory",
+      
+      description: "Quantum Mechanics Notes",
+      section: "Posts",
+      handler: () => {
+        
+          window.location.href = "/blog/2024/timeperturbation/";
+        
+      },
+    },{id: "post-important-formulas-for-statistical-mechanics",
       
         title: "Important Formulas for Statistical Mechanics",
       
