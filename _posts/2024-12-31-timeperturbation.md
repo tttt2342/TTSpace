@@ -36,9 +36,11 @@ Assuming that $$c_a(0) = 1$$ as initial condition, as $$\Psi(t)$$ obeys  the TDS
 \label{9.13}
 \dot{c_a}=-\frac{i}{\hbar}H'_{ab} e^{-i\omega_0 t}c_b
 \end{equation}
+
 \begin{equation}
 \dot{c_b}=-\frac{i}{\hbar}H'_{ba} e^{i\omega_0 t}c_a
 \end{equation}
+
 where $$\omega_0 = \frac{E_b - E_a}{\hbar}$$ and $$H'_{ab} = \langle \psi_a |H'|\psi_b\rangle$$
 #### Time-Dependent Perturbation Theory
 We can solve the equations by iteration, substituting the right hand of \eqref{9.13} with the lower order approximation value. Assume $$c_a(0)=1$$.
@@ -46,6 +48,7 @@ We can solve the equations by iteration, substituting the right hand of \eqref{9
 \begin{equation}
 c_a^{(0)}(t) = 1
 \end{equation}
+
 \begin{equation}
 c_b^{(0)}(t) = 0
 \end{equation}
