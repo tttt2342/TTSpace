@@ -136,9 +136,9 @@ ninja.data = [{
           description: "Research on modifying the transition pressure point of Cerium by dopping rare earth metals.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/1_project/";
-            },},{id: "projects-project-9",
-          title: 'project 9',
-          description: "another project with an image 🎉",
+            },},{id: "projects-online-personal-page",
+          title: 'Online Personal Page',
+          description: "Exactly this website.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/9_project/";
             },},{
