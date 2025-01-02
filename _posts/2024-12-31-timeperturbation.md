@@ -108,7 +108,7 @@ H'_{ba} = -R E_0 z\cos(\omega t) \text{,   where} R=q\langle \psi_b |z|\psi_a \r
 So the transition probability can be written from equation \eqref{9.28} with $$V_{ba} = -RE_0$$
 #### Absorption, Stimulated Emission and Spontaneous Emission
 Temperarily skiped.
-### Incoherence Perturbation
+#### Incoherence Perturbation
 The energy density of EM wave:
 \begin{equation}
 u=\frac{\epsilon_0}{2}E_0^2
@@ -121,11 +121,41 @@ After substitution and expansion of integral range, we obetan
 \begin{equation}
 P_{b\to a}(t) \approx \frac{\pi |R|^2}{\epsilon_0 \hbar^2}\rho(\omega_0) t.
 \end{equation}
-If we consider incident waves from all directions and contribute equally to $$\rho(\omega)$$, we need to substitute $$|R|^2$$ with $$|\vec R \cdot \hat n|^2_{avg}$$
+If we consider incident waves from all directions and contribute equally to $$\rho(\omega)$$, we need to substitute $$|R|^2$$ with $$|\vec R \cdot \hat n|^2_{avg}=\frac{1}{3}|R|^2$$
 We can obtain the average value $$|\vec R \cdot \hat n|^2_{avg}$$ by spherical coordinate integral.
 So, under incoherence light from all directions, the stimulated transition speed from b to a is:
 \begin{equation}
-
+\label{9.47}
+R_{b\to a}(t)=\frac{\pi}{3\epsilon_0 \hbar^2}|\vec R|^2 \rho(\omega_0)
 \end{equation}
 
+### Spontaneous Emission
+#### Einstein's Constants of Emission and Absorption
+As the stimulated emission speed and absorption speed are proportional to EM field energy density, we can get the result with Boltzman distribution and Planck distribution:
+\begin{equation}
+B_{ab}=B_{ba}
+\end{equation}
+\begin{equation}
+A=\frac{\omega_0^3 \hbar}{\pi^2 c^3}B_{ba}
+\end{equation}
+where $$B_{ab}$$ and $$B_{ba}$$ are absoprtion and stimulated emission constant, and $$A$$ is spontaneous emission constant.
+From equation\eqref{9.47} we know:
+\begin{equation}
+B_{ba} = \frac{\pi}{3\epsilon_0\hbar^2}|\vec R|^2
+\end{equation}
+So the spontaneous emission speed is
+\begin{equation}
+A=\frac{\omega_0^3|\vec R|^2}{3\pi\epsilon_0 \hbar c^3}.
+\end{equation}
+#### Life Time of Stimulated State
+The number of stimulated particle would decrease by exponential function:
+\begin{equation}
+N_b(t)=N_b(0)e^{-At}
+\end{equation}
+The time constant:
+\begin{equation}
+\tau = \frac{1}{A}
+\end{equation}
+is the life time of state.
+#### Selection Rules
 
