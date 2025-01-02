@@ -43,7 +43,8 @@ Assuming that $$c_a(0) = 1$$ as initial condition, as $$\Psi(t)$$ obeys  the TDS
 
 where $$\omega_0 = \frac{E_b - E_a}{\hbar}$$ and $$H'_{ab} = \langle \psi_a |H'|\psi_b\rangle$$
 #### Time-Dependent Perturbation Theory
-We can solve the equations by iteration, substituting the right hand of \eqref{9.13} with the lower order approximation value. Assume $$c_a(0)=1$$.
+We can solve the equations by iteration, substituting the right hand of \eqref{9.13} with the lower order approximation value. \
+Assume $$c_a(0)=1$$.
 ##### 0th Order
 \begin{equation}
 c_a^{(0)}(t) = 1
@@ -58,8 +59,9 @@ c_a^{(1)}(t)=1
 \end{equation}
 
 \begin{equation}
-\dot{c_b^{(1)}}(t)=-\frac{i}{\hbar}\prime{H}_{ba} e^{i\omega_0 t} \to c_b^{(1)}(t)=-\frac{i}{\hbar}\int_{0}^{t}\prime{H}_{ba}(\prime{t})e^{i\omega_0 \prime{t}}dt'
+\dot{c_b^{(1)}}(t)=-\frac{i}{\hbar}\prime{H}_{ba}e^{i\omega_0 t} \to c_b^{(1)}(t)=-\frac{i}{\hbar}\int_{0}^{t}\prime{H}_{ba}(\prime{t})e^{i\omega_0 \prime{t}}dt'
 \end{equation}
+
 ##### 2nd Order
 \begin{equation}
 c_a^{(2)}(t)=1-\frac{1}{\hbar^2}\int_0^t \prime{H}_{ab}(\prime{t})e^{-i\omega_0 t'}[\int_0^{\prime{t}}\prime{H}_{ba}(t")e^{i\omega_0 t^{"}}dt^{"}]dt^{'}
@@ -67,3 +69,25 @@ c_a^{(2)}(t)=1-\frac{1}{\hbar^2}\int_0^t \prime{H}_{ab}(\prime{t})e^{-i\omega_0 
 \begin{equation}
 c_b^{(2)}(t)=c_b^{(1)}(t)
 \end{equation}
+
+#### Sinusoidal Perturbation
+If we consider the sinusoidal perturbation
+\begin{equation}
+\prime{H}(\vec r,t) = V(\vec r)\cos (\omega t)
+\end{equation}
+to the 1st order approximation, we obtain
+\begin{equation}
+\label{9.25}
+c_b(t)\approx -\frac{i}{\hbar}V_{ab} \int_0^t \cos (\omega t^{'})e^{i\omega_0 t^{'}} dt^{'}=-\frac{V_{ab}}{2\hbar}[\frac{e^{i(\omega_0+\omega)t}-1}{\omega_0+\omega}+\frac{e^{i(\omega_0-\omega)t}-1}{\omega_0-\omega}]
+\end{equation}
+If we only consider the situation that drive frequency is close to transition frequency ($$\omega_0+\omega >> |\omega_0-\omega|$$), we can ignore the first term in \eqref{9.25}. So,
+\begin{equation}
+c_b(t)\approx -i\frac{V_{ba}}{\hbar}\frac{\sin [(\omega_0-\omega)t/2]}{\omwga_0-\omega}e^{i(\omega_0-\omega)t/2}
+\end{equation}
+The transition probability at time $$t$$ is:
+\begin{equation}
+P_{a\to b}(t) = |c_b(t)|^2\approx \frac{|V_{ab}|^2}{\hbar^2}\frac{\sin^2 [(\omega_0-\omega)t/2]}{(\omega_0-\omega)^2}
+\end{equation}
+which is in sinusoidal form.
+
+### Emission and Absorption of Radiation
