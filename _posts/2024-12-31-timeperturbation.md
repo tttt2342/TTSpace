@@ -78,7 +78,7 @@ If we consider the sinusoidal perturbation
 to the 1st order approximation, we obtain
 \begin{equation}
 \label{9.25}
-c_b(t)\approx -\frac{i}{\hbar}V_{ab} \int_0^t \cos (\omega t^{'})e^{i\omega_0 t^{'}} dt^{'}=-\frac{V_{ab}}{2\hbar}[\frac{e^{i(\omega_0+\omega)t}-1}{\omega_0+\omega}+\frac{e^{i(\omega_0-\omega)t}-1}{\omega_0-\omega}]
+c_b(t)\approx -\frac{i}{\hbar}V_{ab} \int_0^t \cos (\omega t')e^{i\omega_0 t}} dt'=-\frac{V_{ab}}{2\hbar}[\frac{e^{i(\omega_0+\omega)t}-1}{\omega_0+\omega}+\frac{e^{i(\omega_0-\omega)t}-1}{\omega_0-\omega}]
 \end{equation}
 If we only consider the situation that drive frequency is close to transition frequency ($$\omega_0+\omega >> |\omega_0-\omega|$$), we can ignore the first term in \eqref{9.25}. So,
 \begin{equation}
@@ -86,6 +86,7 @@ c_b(t)\approx -i\frac{V_{ba}}{\hbar}\frac{\sin [(\omega_0-\omega)t/2]}{\omega_0-
 \end{equation}
 The transition probability at time $$t$$ is:
 \begin{equation}
+\label{9.28}
 P_{a\to b}(t) = |c_b(t)|^2\approx \frac{|V_{ab}|^2}{\hbar^2}\frac{\sin^2 [(\omega_0-\omega)t/2]}{(\omega_0-\omega)^2}
 \end{equation}
 which is in sinusoidal form.
@@ -104,6 +105,21 @@ We have
 \begin{equation}
 H'_{ba} = -R E_0 z\cos(\omega t) \text{,   where} R=q\langle \psi_b |z|\psi_a \rangle
 \end{equation}
-
+So the transition probability can be written from equation \eqref{9.28} with $$V_{ba} = -RE_0$$
+#### Absorption, Stimulated Emission and Spontaneous Emission
+Temperarily skiped.
+### Incoherence Perturbation
+The energy density of EM wave:
+\begin{equation}
+u=\frac{\epsilon_0}{2}E_0^2
+\end{equation}
+Thus transition probability is directly proportional to energy density. But this is only correct to single frequency. In practice, the $$u \to \rho(\omega)d\omega$$. We can substitute $$\rho(\omega)$$ with $$\rho(\omega_0)$$, making the result in integral form:
+\begin{equation}
+P_{b\to a}(t)=\frac{2}{\epsilon_0 \hbar^2}|R|^2 \rho(\omega_0) \int_0^{\infty} \lbrace \frac{\sin^2 [(\omega_0-\omega)t/2]}{(\omega_0-\omega)^2} \rbrace d\omega
+\end{equation}
+After substitution and expansion of integral range, we obetan
+\begin{equation}
+P_{b\to a}(t) \approx \frac{\pi |R|^2}{\epsilon_0 \hbar^2}\rho(\omega_0) t.
+\end{equation}
 
 
