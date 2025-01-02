@@ -56,12 +56,13 @@ c_b^{(0)}(t) = 0
 \begin{equation}
 c_a^{(1)}(t)=1
 \end{equation}
+
 \begin{equation}
-\dot{c_b^{(1)}}(t)=-\frac{i}{\hbar}H'_{ba} e^{i\omega_0 t} \to c_b^{(1)}(t)=-\frac{i}{\hbar}\int_{0}^{t}H'_{ba}(t')e^{i\omega_0 t'}dt'
+\dot{c_b^{(1)}}(t)=-\frac{i}{\hbar}\prime{H}_{ba} e^{i\omega_0 t} \to c_b^{(1)}(t)=-\frac{i}{\hbar}\int_{0}^{t}\prime{H}_{ba}(\prime{t})e^{i\omega_0 \prime{t}}dt'
 \end{equation}
 ##### 2nd Order
 \begin{equation}
-c_a^{(2)}(t)=1-\frac{1}{\hbar^2}\int_0^t H'_{ab}(t')e^{-i\omega_0 t'}[\int_0^{t'}H'_{ba}(t")e^{i\omega_0 t"}dt"]dt'
+c_a^{(2)}(t)=1-\frac{1}{\hbar^2}\int_0^t \prime{H}_{ab}(\prime{t})e^{-i\omega_0 t'}[\int_0^{\prime{t}}\prime{H}_{ba}(t")e^{i\omega_0 t^{"}}dt^{"}]dt^{'}
 \end{equation}
 \begin{equation}
 c_b^{(2)}(t)=c_b^{(1)}(t)
