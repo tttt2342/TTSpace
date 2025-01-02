@@ -6,7 +6,7 @@
     - name: Date of Birth
       value: 27th December 2004
     - name: Languages
-      value: English, Chinese
+      value: Chinese, English
 
 - title: Education
   type: time_table
@@ -46,16 +46,14 @@
 - title: Academic Interests
   type: nested_list
   contents:
-    - title: Topic 1.
+    - title: Condensed Matter Physics.
       items:
-        - Description 1.
-        - Description 2.
-    - title: Topic 2.
+        - Metal properties under high pressure.
+        - HPHT synthesis
+    - title: Astrophysics.
       items:
-        - Description 1.
-        - Description 2.
 
 - title: Other Interests
   type: list
   contents:
-    - <u>Hobbies:</u> Hobby 1, Hobby 2, etc.
+    - <u>Hobbies:</u> Games, Piano, etc.
