@@ -59,7 +59,7 @@ c_a^{(1)}(t)=1
 \end{equation}
 
 \begin{equation}
-\dot{c_b^{(1)}}(t)=-\frac{i}{\hbar} H'_{ba} e^{i\omega_0 t} \to c_b^{(1)}(t)=-\frac{i}{\hbar}\int_{0}^{t}H'_{ba}(t')e^{i\omega_0 t'}dt'
+\dot{c_b^{(1)}}(t)=-\frac{i}{\hbar} H_{ba}' e^{i\omega_0 t} \to c_b^{(1)}(t)=-\frac{i}{\hbar}\int_{0}^{t}H_{ba}' (t')e^{i\omega_0 t'}dt'
 \end{equation}
 
 ##### 2nd Order
