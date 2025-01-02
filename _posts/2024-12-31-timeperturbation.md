@@ -59,12 +59,12 @@ c_a^{(1)}(t)=1
 \end{equation}
 
 \begin{equation}
-\dot{c_b^{(1)}}(t)=-\frac{i}{\hbar} H^{\prime}_{ba}e^{i\omega_0 t} \to c_b^{(1)}(t)=-\frac{i}{\hbar}\int_{0}^{t}H'_{ba}(t')e^{i\omega_0 t'}dt'
+\dot{c_b^{(1)}}(t)=-\frac{i}{\hbar} H\prime_{ba}e^{i\omega_0 t} \to c_b^{(1)}(t)=-\frac{i}{\hbar}\int_{0}^{t}H'_{ba}(t')e^{i\omega_0 t'}dt'
 \end{equation}
 
 ##### 2nd Order
 \begin{equation}
-c_a^{(2)}(t)=1-\frac{1}{\hbar^2}\int_0^t H^{\prime}_{ab}(\prime{t})e^{-i \omega_0 t'}[\int_0^{\prime{t}}H^{\prime}_{ba}(t")e^{i\omega_0 t"}dt"]dt'
+c_a^{(2)}(t)=1-\frac{1}{\hbar^2} \int_0^t H\prime_{ab}(t')e^{-i\omega_0 t'}[\int_0^{t'}H\prime_{ba}(t")e^{i\omega_0 t"}dt"]dt' 
 \end{equation}
 \begin{equation}
 c_b^{(2)}(t)=c_b^{(1)}(t)
@@ -78,7 +78,7 @@ If we consider the sinusoidal perturbation
 to the 1st order approximation, we obtain
 \begin{equation}
 \label{9.25}
-c_b(t)\approx -\frac{i}{\hbar}V_{ab} \int_0^t \cos (\omega t')e^{i\omega_0 t}} dt'=-\frac{V_{ab}}{2\hbar}[\frac{e^{i(\omega_0+\omega)t}-1}{\omega_0+\omega}+\frac{e^{i(\omega_0-\omega)t}-1}{\omega_0-\omega}]
+c_b(t)\approx -\frac{i}{\hbar}V_{ab} \int_0^t \cos (\omega t')e^{i\omega_0 t} dt'=-\frac{V_{ab}}{2\hbar}[\frac{e^{i(\omega_0+\omega)t }-1}{\omega_0+\omega}+\frac{e^{i(\omega_0-\omega)t}-1}{\omega_0-\omega}]
 \end{equation}
 If we only consider the situation that drive frequency is close to transition frequency ($$\omega_0+\omega >> |\omega_0-\omega|$$), we can ignore the first term in \eqref{9.25}. So,
 \begin{equation}
