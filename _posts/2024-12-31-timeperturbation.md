@@ -59,12 +59,12 @@ c_a^{(1)}(t)=1
 \end{equation}
 
 \begin{equation}
-\dot{c_b^{(1)}}(t)=-\frac{i}{\hbar} H\prime_{ba}e^{i\omega_0 t} \to c_b^{(1)}(t)=-\frac{i}{\hbar}\int_{0}^{t}H'_{ba}(t')e^{i\omega_0 t'}dt'
+\dot{c_b^{(1)}}(t)=-\frac{i}{\hbar} H'_{ba} e^{i\omega_0 t} \to c_b^{(1)}(t)=-\frac{i}{\hbar}\int_{0}^{t}H'_{ba}(t')e^{i\omega_0 t'}dt'
 \end{equation}
 
 ##### 2nd Order
 \begin{equation}
-c_a^{(2)}(t)=1-\frac{1}{\hbar^2} \int_0^t H\prime_{ab}(t')e^{-i\omega_0 t'}[\int_0^{t'}H\prime_{ba}(t")e^{i\omega_0 t"}dt"]dt' 
+c_a^{(2)}(t)=1-\frac{1}{\hbar^2} \int_0^t H_{ab}'(t')e^{-i\omega_0 t'}[\int_0^{t'}H_{ba}'(t^")e^{i\omega_0 t^"}dt^"]dt' 
 \end{equation}
 \begin{equation}
 c_b^{(2)}(t)=c_b^{(1)}(t)
@@ -99,7 +99,7 @@ We can consider an atom in the EM wave as under a sinusoidal electric field
 \end{equation}
 The Hamiltonian perturbation is
 \begin{equation}
-H^{'}=-qE_0 z\cos(\omega t)
+H'=-qE_0 z\cos(\omega t)
 \end{equation}
 We have
 \begin{equation}
@@ -120,6 +120,12 @@ P_{b\to a}(t)=\frac{2}{\epsilon_0 \hbar^2}|R|^2 \rho(\omega_0) \int_0^{\infty} \
 After substitution and expansion of integral range, we obetan
 \begin{equation}
 P_{b\to a}(t) \approx \frac{\pi |R|^2}{\epsilon_0 \hbar^2}\rho(\omega_0) t.
+\end{equation}
+If we consider incident waves from all directions and contribute equally to $$\rho(\omega)$$, we need to substitute $$|R|^2$$ with $$|\vec R \cdot \hat n|^2_{avg}$$
+We can obtain the average value $$|\vec R \cdot \hat n|^2_{avg}$$ by spherical coordinate integral.
+So, under incoherence light from all directions, the stimulated transition speed from b to a is:
+\begin{equation}
+
 \end{equation}
 
 
