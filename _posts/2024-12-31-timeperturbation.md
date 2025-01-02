@@ -59,12 +59,12 @@ c_a^{(1)}(t)=1
 \end{equation}
 
 \begin{equation}
-\dot{c_b^{(1)}}(t)=-\frac{i}{\hbar} H^{'}_{ba}e^{i\omega_0 t} \to c_b^{(1)}(t)=-\frac{i}{\hbar}\int_{0}^{t}H^{'}_{ba}(t^{'})e^{i\omega_0 t^{'}}dt'
+\dot{c_b^{(1)}}(t)=-\frac{i}{\hbar} H^{\prime}_{ba}e^{i\omega_0 t} \to c_b^{(1)}(t)=-\frac{i}{\hbar}\int_{0}^{t}H'_{ba}(t')e^{i\omega_0 t'}dt'
 \end{equation}
 
 ##### 2nd Order
 \begin{equation}
-c_a^{(2)}(t)=1-\frac{1}{\hbar^2}\int_0^t \prime{H}_{ab}(\prime{t})e^{-i\omega_0 t'}[\int_0^{\prime{t}}\prime{H}_{ba}(t")e^{i\omega_0 t^{"}}dt^{"}]dt^{'}
+c_a^{(2)}(t)=1-\frac{1}{\hbar^2}\int_0^t H^{\prime}_{ab}(\prime{t})e^{-i \omega_0 t'}[\int_0^{\prime{t}}H^{\prime}_{ba}(t")e^{i\omega_0 t"}dt"]dt'
 \end{equation}
 \begin{equation}
 c_b^{(2)}(t)=c_b^{(1)}(t)
@@ -96,4 +96,14 @@ We can consider an atom in the EM wave as under a sinusoidal electric field
 \begin{equation}
 \vec E = E_0 \cos(\omega t)\hat k
 \end{equation}
+The Hamiltonian perturbation is
+\begin{equation}
+H^{'}=-qE_0 z\cos(\omega t)
+\end{equation}
+We have
+\begin{equation}
+H'_{ba} = -R E_0 z\cos(\omega t) \text{,   where} R=q\langle \psi_b |z|\psi_a \rangle
+\end{equation}
+
+
 
