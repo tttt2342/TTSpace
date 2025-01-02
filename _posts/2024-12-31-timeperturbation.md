@@ -59,7 +59,7 @@ c_a^{(1)}(t)=1
 \end{equation}
 
 \begin{equation}
-\dot{c_b^{(1)}}(t)=-\frac{i}{\hbar}\prime{H}_{ba}e^{i\omega_0 t} \to c_b^{(1)}(t)=-\frac{i}{\hbar}\int_{0}^{t}\prime{H}_{ba}(\prime{t})e^{i\omega_0 \prime{t}}dt'
+\dot{c_b^{(1)}}(t)=-\frac{i}{\hbar} H^{'}_{ba}e^{i\omega_0 t} \to c_b^{(1)}(t)=-\frac{i}{\hbar}\int_{0}^{t}H^{'}_{ba}(t^{'})e^{i\omega_0 t^{'}}dt'
 \end{equation}
 
 ##### 2nd Order
@@ -82,7 +82,7 @@ c_b(t)\approx -\frac{i}{\hbar}V_{ab} \int_0^t \cos (\omega t^{'})e^{i\omega_0 t^
 \end{equation}
 If we only consider the situation that drive frequency is close to transition frequency ($$\omega_0+\omega >> |\omega_0-\omega|$$), we can ignore the first term in \eqref{9.25}. So,
 \begin{equation}
-c_b(t)\approx -i\frac{V_{ba}}{\hbar}\frac{\sin [(\omega_0-\omega)t/2]}{\omwga_0-\omega}e^{i(\omega_0-\omega)t/2}
+c_b(t)\approx -i\frac{V_{ba}}{\hbar}\frac{\sin [(\omega_0-\omega)t/2]}{\omega_0-\omega}e^{i(\omega_0-\omega)t/2}
 \end{equation}
 The transition probability at time $$t$$ is:
 \begin{equation}
@@ -91,3 +91,9 @@ P_{a\to b}(t) = |c_b(t)|^2\approx \frac{|V_{ab}|^2}{\hbar^2}\frac{\sin^2 [(\omeg
 which is in sinusoidal form.
 
 ### Emission and Absorption of Radiation
+#### EM Wave
+We can consider an atom in the EM wave as under a sinusoidal electric field
+\begin{equation}
+\vec E = E_0 \cos(\omega t)\hat k
+\end{equation}
+
