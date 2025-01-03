@@ -18,7 +18,7 @@ The basic method to anylyze an adiabatic process is condidering external paramet
 It can be expressed as the adiabatictheorem below.\
 Assume Hamiltonian change from initial value $$H^i$$ to $$H^f$$ slowly. If a particle under the $$n$$ order eigen state of $$H^i$$, it will evolve to the $$n$$ order eigen state of $$H^f$$ (following Schrodinger Equation).
 
-#### Proof of Adiabatic Process
+#### Proof of Adiabatic Theorem
 We know the solution to TDSE under time-independent Hamiltonian is
 \begin{equation}
 \label{10.12}
