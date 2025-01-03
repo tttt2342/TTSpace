@@ -37,7 +37,18 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/cv/";
           },
-        },{id: "post-adiabatic-approximation",
+        },{id: "post-scattering",
+      
+        title: "Scattering",
+      
+      description: "Quantum Mechanics Notes",
+      section: "Posts",
+      handler: () => {
+        
+          window.location.href = "/blog/2025/scattering/";
+        
+      },
+    },{id: "post-adiabatic-approximation",
       
         title: "Adiabatic Approximation",
       
