@@ -96,4 +96,31 @@ In three dimension parameter space, we can write equation\eqref{10.45} into a su
 \end{equation}
 
 #### Aharonov-Bohm Effect (AB Effect)
+Consider a particle moving along a ring with radious $$b$$, and a long soleenoid with current $$I$$ and radious $$a$$ is located along the axis. Now the EM field outside the solenoid is zero but vector potential is not. Actually,
+\begin{equation}
+\vec A=\frac{\Phi}{2\pi r}\hat\phi, (r>a)
+\end{equation}
+where $$\Phi = \pi a^2B$$ is the magnetic flux in the solenoid.
+The Hamiltonian can be written into
+\begin{equation}
+H=\frac{1}{2m}[-\hbar^2\nabla^2+q^2A^2+2i\hbar q\vec A\cdot\nabla].
+\end{equation}
+As the wave function is independent of $$\theta$$ and $$r$$, $$\nabla \to \frac{\hat\phi}{b}\frac{d}{d\phi}$$, the Schrodinger Equation becomes
+\begin{equation}
+\frac{d^2 \psi}{d\phi^2}-2i\beta \frac{d\psi}{d\phi}+\epsilon\psi = 0,
+\end{equation}
+where $$\beta=\frac{q\phi}{2\pi\hbar}$$ and $$\epsilon=\frac{2mb^2E}{\hbar^2}-\beta$$.
+The solution is in the following form:
+\begin{equation}
+\psi = Ae^{i]lambda\phi},
+\end{equation}
+where
+\begin{equation}
+\lambda = \beta \pm \sqrt{\beta^2+\epsilon}=\beta \pm \frac{b}{\hbar}\sqrt{2mE}.
+\end{equation}
+The periodic boundary condition requires $$\lambda = n$$, then:
+\begin{equation}
+E_n=\frac{\hbar^2}{2mb^2}(n-\frac{q\Phi}{2\pi\hbar})^2, \quad (n=0,\pm 1,\pm 2,\cdots)
+\end{equation}
+We can see the double degeneracy is splitted, and the allowed value of energy is dependent on the internal field of solenoid, though the field is zero at the particle.
 
