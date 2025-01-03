@@ -10,7 +10,7 @@ related_posts: false
 
 ### Scattering Theory
 #### Classical Scattering Theory
-Consider a single incident particle with energy $$E$$, collision parameter $$b$$, and exit with angle $$\theta$$. The basic question of classical scattering theory is to calculate scattering angle with collision parameter.
+Consider a single incident particle with energy $$E$$, collision parameter $$b$$, and exit with angle $$\theta$$. The basic question of classical scattering theory is to calculate scattering angle with collision parameter.\
 Generally, incident particles into a cross section area $$d\sigma$$ would be scattered into a solid angle $$d\Omega$$. The ratio, $$D(\theta) = d\sigma/d\Omega$$, is call the **differential cross section**.
 
 Using the collision parameter, $$d\sigma = bdbd\phi, d\Omega=\sin \theta d\theta d\phi$$, so,
