@@ -112,7 +112,7 @@ As the wave function is independent of $$\theta$$ and $$r$$, $$\nabla \to \frac{
 where $$\beta=\frac{q\phi}{2\pi\hbar}$$ and $$\epsilon=\frac{2mb^2E}{\hbar^2}-\beta$$.
 The solution is in the following form:
 \begin{equation}
-\psi = Ae^{i]lambda\phi},
+\psi = Ae^{i\lambda\phi},
 \end{equation}
 where
 \begin{equation}
