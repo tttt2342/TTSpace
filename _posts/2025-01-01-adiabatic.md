@@ -49,7 +49,7 @@ Take the inner product with $$\psi_m$$ again and use the Hermitian of $$H$$:
 \begin{equation}
 \langle \psi_m |\dot H |\psi_n\rangle = (E_n-E_m)\langle\psi_m | \dot\psi_n\rangle
 \end{equation}
-Substitute this equation into eqref{10.16}, and do the adiabatic approximation ($$\dot H $$ is very small) to ignore the second term, we can obatin:
+Substitute this equation into \eqref{10.16}, and do the adiabatic approximation ($$\dot H $$ is very small) to ignore the second term, we can obatin:
 \begin{equation}
 \dot c_m(t) = -c_m \langle\psi_m |\dot\psi_m,
 \end{equation}
