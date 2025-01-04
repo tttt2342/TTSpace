@@ -37,7 +37,18 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/cv/";
           },
-        },{id: "post-scattering",
+        },{id: "post-solid-state-physics-notes",
+      
+        title: "Solid State Physics Notes",
+      
+      description: "Important notes in solid state physics",
+      section: "Posts",
+      handler: () => {
+        
+          window.location.href = "/blog/2025/ssp/";
+        
+      },
+    },{id: "post-scattering",
       
         title: "Scattering",
       
