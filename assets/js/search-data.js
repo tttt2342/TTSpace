@@ -37,7 +37,18 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/cv/";
           },
-        },{id: "post-solid-state-physics-notes",
+        },{id: "post-important-formulas-in-quantum-mechanics",
+      
+        title: "Important Formulas in Quantum Mechanics",
+      
+      description: "Quantum Mechanics Notes",
+      section: "Posts",
+      handler: () => {
+        
+          window.location.href = "/blog/2025/qm/";
+        
+      },
+    },{id: "post-solid-state-physics-notes",
       
         title: "Solid State Physics Notes",
       
