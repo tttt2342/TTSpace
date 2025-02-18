@@ -8,6 +8,7 @@ categories: StatisticalMechanics
 related_posts: false
 ---
 
+
 ### Fermi Statistics
 For fermions, each single-particle state can accommodate at most one particle, and thus each state is either occupied or empty. To place $$n_j$$ fermions into $$g_j$$ states, the number of ways:
 \begin{equation}
