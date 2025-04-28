@@ -1,7 +1,7 @@
 ---
 layout: page
-title: Study on Impurities in Thermally Evaporated Aluminum Films
-description: Research on Al thin film.
+title: Aluminum Thin Films
+description: Study on impurities in thermally evaporated Aluminum films
 img: assets/img/1.jpg
 importance: 1
 category: work
