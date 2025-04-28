@@ -48,6 +48,17 @@ ninja.data = [{
           window.location.href = "/blog/2025/qm/";
         
       },
+    },{id: "post-七律-统计力学",
+      
+        title: "七律.统计力学",
+      
+      description: "统计力学复习有感",
+      section: "Posts",
+      handler: () => {
+        
+          window.location.href = "/blog/2025/sp_poem/";
+        
+      },
     },{id: "post-solid-state-physics-notes",
       
         title: "Solid State Physics Notes",
