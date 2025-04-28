@@ -2,7 +2,7 @@
 layout: page
 title: Online Personal Page
 description: Exactly this website.
-img: assets/img/6.jpg
+img: 
 importance: 4
 category: fun
 ---
