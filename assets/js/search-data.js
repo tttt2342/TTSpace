@@ -185,6 +185,11 @@ ninja.data = [{
           description: "Exactly this website.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/9_project/";
+            },},{id: "projects-study-on-impurities-in-thermally-evaporated-aluminum-films",
+          title: 'Study on Impurities in Thermally Evaporated Aluminum Films',
+          description: "Research on Al thin film.",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/AlFilm/";
             },},{
         id: 'social-email',
         title: 'email',
