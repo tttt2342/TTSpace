@@ -37,7 +37,18 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/cv/";
           },
-        },{id: "post-important-formulas-in-quantum-mechanics",
+        },{id: "post-ordinary-differential-equations-odes",
+      
+        title: "Ordinary Differential Equations (ODEs)",
+      
+      description: "Computational Methods to ODEs",
+      section: "Posts",
+      handler: () => {
+        
+          window.location.href = "/blog/2025/ODE/";
+        
+      },
+    },{id: "post-important-formulas-in-quantum-mechanics",
       
         title: "Important Formulas in Quantum Mechanics",
       
