@@ -37,7 +37,18 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/cv/";
           },
-        },{id: "post-ordinary-differential-equations-odes",
+        },{id: "post-molecular-dynamics-md",
+      
+        title: "Molecular Dynamics (MD)",
+      
+      description: "Introduction to molecular dynamics simulation",
+      section: "Posts",
+      handler: () => {
+        
+          window.location.href = "/blog/2025/MD/";
+        
+      },
+    },{id: "post-ordinary-differential-equations-odes",
       
         title: "Ordinary Differential Equations (ODEs)",
       
