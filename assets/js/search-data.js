@@ -37,11 +37,11 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/cv/";
           },
-        },{id: "post-md",
+        },{id: "post-molecular-dynamics-md",
       
-        title: "Md",
+        title: "Molecular Dynamics (MD)",
       
-      description: "",
+      description: "Introduction to molecular dynamics simulation",
       section: "Posts",
       handler: () => {
         
