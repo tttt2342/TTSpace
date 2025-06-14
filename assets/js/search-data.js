@@ -37,7 +37,18 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/cv/";
           },
-        },{id: "post-molecular-dynamics-md",
+        },{id: "post-monte-carlo-simulations-mc",
+      
+        title: "Monte Carlo Simulations (MC)",
+      
+      description: "Introduction to Monte Carlo simulation",
+      section: "Posts",
+      handler: () => {
+        
+          window.location.href = "/blog/2025/MC/";
+        
+      },
+    },{id: "post-molecular-dynamics-md",
       
         title: "Molecular Dynamics (MD)",
       
