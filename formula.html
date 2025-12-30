@@ -1,0 +1,105 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Formula Quick Reference</title>
+  <meta name="description" content="快速数学公式参考（支持 LaTeX/KaTeX）。在学习或做题时快速打开查看。" />
+
+  <!-- KaTeX (fast) -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.8/dist/katex.min.css">
+  <style>
+    :root{--bg:#0f1720;--card:#0b1220;--muted:#9aa6b2;--accent:#6ee7b7}
+    body{font-family: Inter, ui-sans-serif, system-ui, -apple-system, "Helvetica Neue", Arial; margin:0; background:linear-gradient(180deg,#071028 0%, #071a2a 100%); color:#e6eef6}
+    .wrap{max-width:980px;margin:32px auto;padding:24px}
+    header{display:flex;align-items:center;gap:16px}
+    h1{margin:0;font-size:1.4rem}
+    p.lead{margin:6px 0 18px;color:var(--muted)}
+    .grid{display:grid;grid-template-columns:1fr 340px;gap:20px}
+    .card{background:rgba(255,255,255,0.02);border:1px solid rgba(255,255,255,0.03);padding:16px;border-radius:10px;box-shadow:0 6px 18px rgba(2,6,23,0.6)}
+    .formula{padding:12px;border-radius:8px;background:linear-gradient(180deg, rgba(255,255,255,0.01), rgba(255,255,255,0.005));margin-bottom:12px}
+    .formula h3{margin:0 0 8px;font-size:0.95rem}
+    .controls{display:flex;gap:8px;margin-top:8px}
+    .btn{background:transparent;border:1px solid rgba(255,255,255,0.06);padding:6px 10px;border-radius:7px;color:var(--muted);cursor:pointer}
+    .btn.ghost{background:transparent}
+    label{display:block;font-size:0.85rem;margin-bottom:6px;color:var(--muted)}
+    input,textarea,select{width:100%;padding:8px;border-radius:8px;border:1px solid rgba(255,255,255,0.03);background:transparent;color:inherit}
+    .small{font-size:0.85rem;color:var(--muted)}
+    .right-panel{position:sticky;top:20px;height:calc(100vh - 40px);overflow:auto}
+    footer.small{color:var(--muted);font-size:0.85rem;margin-top:18px}
+    .search{margin:10px 0}
+    .user-form{display:grid;gap:8px}
+    .muted{color:var(--muted)}
+    @media (max-width:980px){.grid{grid-template-columns:1fr}.right-panel{position:static;height:auto}}
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <header>
+      <svg width="40" height="40" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><rect width="24" height="24" rx="4" fill="#0EA5A4"/><path d="M7 8h10M7 12h6M7 16h4" stroke="#072A2A" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+      <div>
+        <h1>数学物理公式速查</h1>
+        <p class="lead">常用公式查阅</p>
+      </div>
+    </header>
+
+    <div class="grid">
+      <main class="card" id="main">
+        <div class="small muted">不同坐标系下的算符</div>
+
+        <section id="builtin" style="margin-top:12px">
+          <div class="formula">
+            <h3>直角坐标</h3>
+            <div>梯度： $\nabla f = \left(\frac{\partial f}{\partial x},\frac{\partial f}{\partial y},\frac{\partial f}{\partial z}\right)$</div>
+            <div>散度： $\nabla\cdot \mathbf{F} = \frac{\partial F_x}{\partial x}+\frac{\partial F_y}{\partial y}+\frac{\partial F_z}{\partial z}$</div>
+            <div>旋度： $\nabla \times \mathbf{F}=\left(\frac{\partial F_z}{\partial y}-\frac{\partial F_y}{\partial z},\;\frac{\partial F_x}{\partial z}-\frac{\partial F_z}{\partial x},\;\frac{\partial F_y}{\partial x}-\frac{\partial F_x}{\partial y}\right)$</div>
+          </div>
+
+          <div class="formula">
+            <h3>柱坐标</h3>
+            <div>梯度： $\nabla f = \hat{\mathbf{e}}_r \frac{\partial f}{\partial r} + \hat{\mathbf{e}}_\theta \frac{1}{r}\frac{\partial f}{\partial \theta} + \hat{\mathbf{e}}_z \frac{\partial f}{\partial z}$</div>
+            <div>散度： $\nabla\cdot \mathbf{F} = \frac{1}{r}\frac{\partial}{\partial r}(r F_r) + \frac{1}{r}\frac{\partial F_\theta}{\partial \theta} + \frac{\partial F_z}{\partial z}$</div>
+            <div>拉普拉斯（标量）： $\nabla^2 f = \frac{1}{r}\frac{\partial}{\partial r}\left(r\frac{\partial f}{\partial r}\right) + \frac{1}{r^2}\frac{\partial^2 f}{\partial \theta^2} + \frac{\partial^2 f}{\partial z^2}$</div>
+          </div>
+
+          <div class="formula">
+            <h3>球坐标</h3>
+            <div>梯度： $\nabla f = \hat{\mathbf{e}}_r \frac{\partial f}{\partial r} + \hat{\mathbf{e}}_\theta \frac{1}{r}\frac{\partial f}{\partial \theta} + \hat{\mathbf{e}}_\varphi \frac{1}{r\sin\theta}\frac{\partial f}{\partial \varphi}$</div>
+            <div>散度： $\nabla\cdot \mathbf{F} = \frac{1}{r^2}\frac{\partial}{\partial r}(r^2 F_r) + \frac{1}{r\sin\theta}\frac{\partial}{\partial \theta}(\sin\theta F_\theta) + \frac{1}{r\sin\theta}\frac{\partial F_\varphi}{\partial \varphi}$</div>
+            <div>拉普拉斯（标量）： $\nabla^2 f = \frac{1}{r^2}\frac{\partial}{\partial r}\left(r^2\frac{\partial f}{\partial r}\right) + \frac{1}{r^2\sin\theta}\frac{\partial}{\partial \theta}\left(\sin\theta\frac{\partial f}{\partial \theta}\right) + \frac{1}{r^2\sin^2\theta}\frac{\partial^2 f}{\partial \varphi^2}$</div>
+          </div>
+
+          <div class="formula">
+            <h3>常用矢量恒等式</h3>
+            <div>$\nabla\times(\nabla f)=0$</div>
+            <div>$\nabla\cdot(\nabla\times \mathbf{F})=0$</div>
+            <div>$\nabla\times(\nabla\times \mathbf{F})=\nabla(\nabla\cdot \mathbf{F})-\nabla^2\mathbf{F}$</div>
+          </div>
+        </section>
+
+        <!-- 用户自定义已移除：请直接在此文件中添加公式（使用 $...$ 或 $$...$$）以便持久保存 -->
+      </main>
+
+      <!-- 右侧添加/预览模块已移除；如需永久添加公式，请直接编辑此文件 -->
+    </div>
+
+    <footer class="small muted">Created for quick reference • @TianyiZhang</footer>
+  </div>
+
+  <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.8/dist/katex.min.js"></script>
+  <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.8/dist/contrib/auto-render.min.js"></script>
+  <script>
+    function renderAll(){
+      renderMathInElement(document.body, {
+        delimiters: [{left:'$$',right:'$$',display:true},{left:'$',right:'$',display:false}],
+        throwOnError:false
+      });
+    }
+
+    document.addEventListener('DOMContentLoaded', ()=>{
+      // 渲染页面中所有用 $...$ / $$...$$ 包裹的公式
+      renderAll();
+    });
+  </script>
+</body>
+</html>
