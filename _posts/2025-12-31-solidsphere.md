@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Viscous Flow Past a Solid Sphere
-date: 2025-12-31 15:00:00+0800
+date: 2025-12-31 10:00:00+0800
 description: Solve the flow past a sphere using Stokes stream function
 tags: fluid stokes
 categories: FluidMechanics
