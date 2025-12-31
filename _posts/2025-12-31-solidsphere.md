@@ -13,8 +13,9 @@ related_posts: false
 \begin{equation}
 \nabla p = \mu\nabla^2 \vec{u}
 \end{equation}
+
 \begin{equation}
-\nabla \dot \vec{u} = 0
+\nabla \cdot \vec{u} = 0
 \end{equation}
 
 ## Stokes Stream Function
