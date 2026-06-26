@@ -37,18 +37,7 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/cv/";
           },
-        },{id: "post-viscous-flow-past-a-solid-sphere",
-      
-        title: "Viscous Flow Past a Solid Sphere",
-      
-      description: "Solve the flow past a sphere using Stokes stream function",
-      section: "Posts",
-      handler: () => {
-        
-          window.location.href = "/blog/2025/solidsphere/";
-        
-      },
-    },{id: "post-monte-carlo-simulations-mc",
+        },{id: "post-monte-carlo-simulations-mc",
       
         title: "Monte Carlo Simulations (MC)",
       
