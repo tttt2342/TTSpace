@@ -243,6 +243,11 @@ ninja.data = [{
           description: "Study on impurities in thermally evaporated Aluminum films",
           section: "Projects",handler: () => {
               window.location.href = "/projects/AlFilm_project/";
+            },},{id: "projects-active-nematic-turbulence",
+          title: 'Active Nematic Turbulence',
+          description: "Computational study of active nematic flows and colloidal dynamics.",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/Turbulence_project/";
             },},{
         id: 'social-email',
         title: 'email',
