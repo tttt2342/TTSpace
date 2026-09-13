@@ -7,6 +7,10 @@
       value: 27th December 2004
     - name: Languages
       value: Chinese, English
+    - name: Email
+      value: tzhang382@connect.hkust-gz.edu.cn
+    - name: Backup Email
+      value: ty.zhang@live.com
 
 - title: Education
   type: time_table
@@ -31,13 +35,6 @@
     - title: Visiting Student
       institution: The Hong Kong University of Science and Technology (Guangzhou), Guangzhou, China
       year: 2025-2026
-    - title: Undergraduate Researcher
-      institution: Southern University of Science and Technology
-      year: 2023-2025
-      description:
-        - Learn skills about high pressure synthesis and experiments.
-        - Proceed a project on modifying phase transition point of Cerium.
-    
 
 - title: Honors and Awards
   type: time_table

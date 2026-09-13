@@ -4,7 +4,7 @@ title: Aluminum Thin Films
 description: Study on impurities in thermally evaporated Aluminum films
 img: 
 importance: 1
-category: work
+category: archive
 related_publications: true
 ---
 

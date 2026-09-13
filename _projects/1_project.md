@@ -4,7 +4,7 @@ title: Cerium Phase Transition
 description: Research on modifying the transition pressure point of Cerium by dopping rare earth metals.
 img: 
 importance: 1
-category: work
+category: archive
 related_publications: true
 ---
 

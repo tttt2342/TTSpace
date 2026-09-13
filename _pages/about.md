@@ -2,20 +2,22 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='https://sustech.edu.cn'>SUSTech</a>. Shenzhen. 12210511@mail.sustech.edu.cn
+subtitle: <a href='https://www.hkust-gz.edu.cn/'>HKUST (Guangzhou)</a>. PhD student in soft condensed matter physics.
 
 profile:
   align: right
   image: Pro_pic.jpeg
   image_circular: ture # crops the image to make it circular
   more_info: >
-    <p>No.1088 College St.</p>
-    <p>Shenzhen, Guangdong</p>
+    <p>Guangzhou, Guangdong</p>
+    <p>China</p>
 
 news: true # includes a list of news items
 selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
 
-An undergraduate student majoring in physics at SUSTech. 
-Physics has always been my passion. I am captivated by the elegant theories and fascinating phenomena in this field. The pursuit of understanding the fundamental laws of nature drives me to constantly explore and study!
+I am a PhD student at the Hong Kong University of Science and Technology (Guangzhou), working in soft condensed matter physics. My research interests focus on active matter simulations and fluid dynamics simulations.
+
+- Primary email: tzhang382@connect.hkust-gz.edu.cn
+- Backup email: ty.zhang@live.com
