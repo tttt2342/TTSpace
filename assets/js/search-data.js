@@ -253,7 +253,7 @@ ninja.data = [{
         title: 'email',
         section: 'Socials',
         handler: () => {
-          window.open("mailto:%31%32%32%31%30%35%31%31@%6D%61%69%6C.%73%75%73%74%65%63%68.%65%64%75.%63%6E", "_blank");
+          window.open("mailto:%74%7A%68%61%6E%67%33%38%32@%63%6F%6E%6E%65%63%74.%68%6B%75%73%74-%67%7A.%65%64%75.%63%6E", "_blank");
         },
       },{
       id: 'light-theme',
